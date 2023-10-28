@@ -1,0 +1,106 @@
+{
+  "inventario": {
+    "manzanas": {
+      "id": 0,
+      "nombre": "Manzanas",
+      "cantidad": 9938,
+      "ventas": 28,
+      "kilos": 62,
+      "total": 241500
+    },
+    "bananos": {
+      "id": 1,
+      "nombre": "Bananos",
+      "cantidad": 99524,
+      "ventas": 23,
+      "kilos": 76,
+      "total": 149050
+    },
+    "mangos": {
+      "id": 2,
+      "nombre": "Mangos",
+      "cantidad": 99492,
+      "ventas": 27,
+      "kilos": 108,
+      "total": 329000
+    },
+    "fresas": {
+      "id": 3,
+      "nombre": "Fresas",
+      "cantidad": 98596,
+      "ventas": 23,
+      "kilos": 104,
+      "total": 241110
+    }
+  },
+  "factura": {
+    "id": 0,
+    "vendedor": "Junior.G",
+    "detalle": {
+      "manzanas": {
+        "nombre": "Manzanas",
+        "kilos": "2",
+        "precio": 4200,
+        "subtotal": 8400,
+        "descuento": 0,
+        "total": 8400
+      },
+      "bananos": {
+        "nombre": "Bananos",
+        "kilos": "4",
+        "precio": 2200,
+        "subtotal": 8800,
+        "descuento": 880,
+        "total": 7920
+      },
+      "mangos": {
+        "nombre": "Mangos",
+        "kilos": "4",
+        "precio": 3500,
+        "subtotal": 14000,
+        "descuento": 1400,
+        "total": 12600
+      },
+      "fresas": {
+        "nombre": "Fresas",
+        "kilos": "1",
+        "precio": 2700,
+        "subtotal": 2700,
+        "descuento": 0,
+        "total": 2700
+      }
+    }
+  },
+  "usuarios": {
+    "user1": {
+      "nombre": "Jorge",
+      "user": "jlmunoz",
+      "password": "jl123",
+      "perfil": "admin"
+    },
+    "user2": {
+      "nombre": "Larry",
+      "user": "larrym",
+      "password": "lm123",
+      "perfil": "user"
+    },
+    "user3": {
+      "nombre": "Junior",
+      "user": "juniorg",
+      "password": "jg123",
+      "perfil": "user"
+    },
+    "user4": {
+      "nombre": "Edwin",
+      "user": "edwinm",
+      "password": "em123",
+      "perfil": "user"
+    },
+    "user5": {
+      "nombre": "Monica",
+      "user": "monicay",
+      "password": "my123",
+      "perfil": "user"
+    }
+  }
+}

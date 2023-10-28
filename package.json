@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "node-fetch": "2.0"
+  },
+  "scripts": {
+     "start": "json-server --watch database/database.json --host 192.168.10.86 --port 8800"
+  }
+}
