@@ -21,24 +21,23 @@
       background-image: url("/images/banner.jpg");
       background-size: cover;
       width:100%;
-      height: 100px;
-      position:static;
+      height: 10vmin;
+  }
+
+  .slogan {
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #header img{								          /***** Logo header *****/
-    width: 70px;
-    filter: drop-shadow(2px 2px 2px rgba(255, 255, 255, 1));
-    margin-left: 35%;
-    margin-top: 10px;
+    width: 5vmin;
+    filter: drop-shadow(0.5px 0.5px 1px rgba(255, 255, 255, 1));
   }
-  #header h1 {								        /***** Titulo header *****/
-    font-size: 50px;
+  #header h1 {							        /***** Titulo header *****/
+    font-size: 4vmin;
     color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
-    position: static;
-    letter-spacing: 5px;
-    margin-top: -70px;
-    margin-left: 41%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1vmin;
   }
   
   #header #fotoPerfil{                        /****** Foto perfil *****/
@@ -87,7 +86,7 @@
     text-align: center;
   }
   #encabezado h1{
-    font-size: 40px;
+    font-size: 4vmin;
     letter-spacing: 5px;
   }
   
@@ -95,7 +94,7 @@
     text-align: center;
   }
   #contenido div{
-    display: inline-block;
+    display: block;
     float: left;
     width: 100%;
   }

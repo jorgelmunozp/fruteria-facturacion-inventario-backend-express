@@ -1,9 +1,9 @@
 // const urlApiInventario = 'http://localhost:8800/inventario';
 // const urlApiFactura = 'http://localhost:8800/factura';
 // const urlApiUsuarios = 'http://localhost:8800/usuarios';
-const urlApiInventario = 'http://192.168.10.86:8800/inventario';
-const urlApiFactura = 'http://192.168.10.86:8800/factura';
-const urlApiUsuarios = 'http://192.168.10.86:8800/usuarios';
+const urlApiInventario = 'http://192.168.18.249:8800/inventario';
+const urlApiFactura = 'http://192.168.18.249:8800/factura';
+const urlApiUsuarios = 'http://192.168.18.249:8800/usuarios';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
