@@ -1,0 +1,7 @@
+{
+  "/inventario/get": "/inventario",
+  "/inventario/get/:id": "/inventario/:id",
+  "/inventario/create": "/inventario",
+  "/inventario/update/:id": "/inventario/:id",
+  "/inventario/delete/:id": "/inventario/:id"
+}
