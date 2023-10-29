@@ -1,5 +1,4 @@
 {
-  "inventario": {
     "manzanas": {
       "id": 0,
       "nombre": "Manzanas",
@@ -31,6 +30,5 @@
       "ventas": 41,
       "kilos": 3583,
       "total": 8761440
-    }
   }
 }
