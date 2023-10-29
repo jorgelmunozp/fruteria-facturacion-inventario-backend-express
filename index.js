@@ -4,9 +4,12 @@
 // const urlApiInventario = 'http://192.168.18.249:8800/inventario';
 // const urlApiFactura = 'http://192.168.18.249:8800/factura';
 // const urlApiUsuarios = 'http://192.168.18.249:8800/usuarios';
-const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario';
-const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura';
-const urlApiUsuarios = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/usuarios';
+const urlApiInventario = 'http://185.199.108.153:80/inventario';
+const urlApiFactura = 'http://185.199.108.153:80/factura';
+const urlApiUsuarios = 'http://185.199.108.153:80/usuarios';
+// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario';
+// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura';
+// const urlApiUsuarios = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/usuarios';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
