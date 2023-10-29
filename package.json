@@ -7,6 +7,6 @@
     "node-sass": "^9.0.0"
   },
   "scripts": {
-    "start": "json-server --watch database/database.json --host 192.168.18.249 --port 8800"
+    "start": "json-server --watch database/database.json"
   }
 }
