@@ -7,6 +7,8 @@
     "node-sass": "^9.0.0"
   },
   "scripts": {
-    "start": "json-server --watch database/database.json --routes database/routes.json"
+    "start": "json-server --watch database/database.json --routes database/routes.json",
+    "predeploy": "harp ./public ./build",
+    "deploy": "gh-pages -d build"
   }
 }
