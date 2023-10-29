@@ -7,6 +7,6 @@
     "node-sass": "^9.0.0"
   },
   "scripts": {
-    "start": "json-server --watch database/database.json"
+    "start": "json-server --watch public/database/database.json --routes public/database/routes.json"
   }
 }
