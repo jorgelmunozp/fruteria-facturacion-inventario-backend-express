@@ -1,7 +1,9 @@
 {
+  "homepage": "https://jorgelmunozp.github.io/express-fruteria-inventario-backend/",
   "dependencies": {
     "json-server": "^0.17.4",
-    "node-fetch": "2.0"
+    "node-fetch": "2.0",
+    "node-sass": "^9.0.0"
   },
   "scripts": {
     "start": "json-server --watch database/database.json --host 192.168.18.249 --port 8800"

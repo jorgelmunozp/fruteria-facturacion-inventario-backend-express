@@ -3,71 +3,71 @@
     "manzanas": {
       "id": 0,
       "nombre": "Manzanas",
-      "cantidad": 7643,
-      "ventas": 51,
-      "kilos": 1211,
-      "total": 2493270
+      "cantidad": 7641,
+      "ventas": 52,
+      "kilos": 1213,
+      "total": 2501670
     },
     "bananos": {
       "id": 1,
       "nombre": "Bananos",
-      "cantidad": 65923,
-      "ventas": 38,
-      "kilos": 1245,
-      "total": 123705820
+      "cantidad": 65918,
+      "ventas": 40,
+      "kilos": 1250,
+      "total": 123716160
     },
     "mangos": {
       "id": 2,
       "nombre": "Mangos",
-      "cantidad": 90802,
-      "ventas": 40,
-      "kilos": 2356,
-      "total": 8964250
+      "cantidad": 90801,
+      "ventas": 41,
+      "kilos": 2357,
+      "total": 8967750
     },
     "fresas": {
       "id": 3,
       "nombre": "Fresas",
-      "cantidad": 90760,
-      "ventas": 40,
-      "kilos": 3579,
-      "total": 8751720
+      "cantidad": 90756,
+      "ventas": 41,
+      "kilos": 3583,
+      "total": 8761440
     }
   },
   "factura": {
-    "id": 19,
+    "id": 87,
     "vendedor": "jlmunoz",
     "detalle": {
       "manzanas": {
         "nombre": "Manzanas",
-        "kilos": "5",
+        "kilos": "2",
         "precio": 4200,
-        "subtotal": 21000,
-        "descuento": 2100,
-        "total": 18900
+        "subtotal": 8400,
+        "descuento": 0,
+        "total": 8400
       },
       "bananos": {
         "nombre": "Bananos",
-        "kilos": 0,
+        "kilos": "3",
         "precio": 2200,
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+        "subtotal": 6600,
+        "descuento": 660,
+        "total": 5940
       },
       "mangos": {
         "nombre": "Mangos",
-        "kilos": 0,
+        "kilos": "1",
         "precio": 3500,
-        "subtotal": 0,
+        "subtotal": 3500,
         "descuento": 0,
-        "total": 0
+        "total": 3500
       },
       "fresas": {
         "nombre": "Fresas",
-        "kilos": 0,
+        "kilos": "4",
         "precio": 2700,
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+        "subtotal": 10800,
+        "descuento": 1080,
+        "total": 9720
       }
     }
   },
