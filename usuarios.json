@@ -1,0 +1,34 @@
+{
+  "usuarios": {
+    "user1": {
+      "nombre": "Jorge",
+      "user": "jlmunoz",
+      "password": "jl123",
+      "perfil": "admin"
+    },
+    "user2": {
+      "nombre": "Larry",
+      "user": "larrym",
+      "password": "lm123",
+      "perfil": "user"
+    },
+    "user3": {
+      "nombre": "Junior",
+      "user": "juniorg",
+      "password": "jg123",
+      "perfil": "user"
+    },
+    "user4": {
+      "nombre": "Edwin",
+      "user": "edwinm",
+      "password": "em123",
+      "perfil": "user"
+    },
+    "user5": {
+      "nombre": "Monica",
+      "user": "monicay",
+      "password": "my123",
+      "perfil": "user"
+    }
+  }
+}

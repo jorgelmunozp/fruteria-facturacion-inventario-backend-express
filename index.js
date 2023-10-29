@@ -6,7 +6,7 @@
 // const urlApiUsuarios = 'http://192.168.18.249:8800/usuarios';
 const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
 const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-const urlApiUsuarios = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/usuarios';
+const urlApiUsuarios = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/usuarios.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -20,6 +20,7 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
 
 fetch(urlApiInventario)                 //API REST para la simulación de la tabla INVENTARIO de la base de datos
   .then(response => response.json())
+  .then(console.log(response.json()))
   .then(inventario => {
       let contenidoInventario = document.getElementById('contenidoInventario');
 
