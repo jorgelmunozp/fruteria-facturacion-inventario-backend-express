@@ -20,7 +20,6 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
 
 fetch(urlApiInventario)                 //API REST para la simulación de la tabla INVENTARIO de la base de datos
   .then(response => response.json())
-  .then(console.log(response.json()))
   .then(inventario => {
       let contenidoInventario = document.getElementById('contenidoInventario');
 
