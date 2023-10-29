@@ -18,9 +18,9 @@
 
 ## Description
 
-This project consists of the development of a Inventario database application with API restful architecture
+This project consists of the development of a Inventario database application with API RESTful architecture
 
-* It was developed with JavaScript, Html, and Css in Node Js
+* It was developed with JavaScript ES6, Html, and Css in Node Js
 
 ## Authors
 
