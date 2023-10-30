@@ -137,32 +137,32 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                 <tr>
                   <th> Fruta </th>
                   <th> Descripcion </th>
-                  <th> Kilos </th>
-                  <th> Total </th>
+                  <th> Valor (Kilo) </th>
+                  <th> Proveedor </th>
                 </tr>  
                 <tr>
                   <td> ${frutas.fruta1.nombre} </td>
                   <td> ${frutas.fruta1.descripcion} </td>
                   <td> ${frutas.fruta1.kilos} </td>
-                  <td> ${frutas.fruta1.total} </td>
+                  <td> ${frutas.fruta1.proveedor} </td>
                 </tr>   
                 <tr>
                   <td> ${frutas.fruta2.nombre} </td>
                   <td> ${frutas.fruta2.descripcion} </td>
                   <td> ${frutas.fruta2.kilos} </td>
-                  <td> ${frutas.fruta2.total} </td>
+                  <td> ${frutas.fruta2.proveedor} </td>
                 </tr> 
                 <tr>
                   <td> ${frutas.fruta3.nombre} </td>
                   <td> ${frutas.fruta3.descripcion} </td>
                   <td> ${frutas.fruta3.kilos} </td>
-                  <td> ${frutas.fruta3.total} </td>
+                  <td> ${frutas.fruta3.proveedor} </td>
                 </tr>      
                 <tr>
                   <td> ${frutas.fruta4.nombre} </td>
                   <td> ${frutas.fruta4.descripcion} </td>
                   <td> ${frutas.fruta4.kilos} </td>
-                  <td> ${frutas.fruta4.total} </td>
+                  <td> ${frutas.fruta4.proveedor} </td>
                 </tr>  
               </table>
             </div>
