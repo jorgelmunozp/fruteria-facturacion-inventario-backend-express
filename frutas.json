@@ -1,26 +1,26 @@
 {
     "fruta1": {
         "nombre": "Manzana",
-        "descripcion": "jlmunoz",
+        "descripcion": "Golden Delicious",
         "kilos": "jl123",
-        "total": "admin"
+        "proveedor": "Distrimanzanas SAS"
     },
     "fruta2": {
         "nombre": "Banano",
-        "descripcion": "larrym",
+        "descripcion": "Dominico",
         "kilos": "lm123",
-        "total": "user"
+        "proveedor": "Colbananos SA"
     },
     "fruta3": {
         "nombre": "Mango",
-        "descripcion": "juniorg",
+        "descripcion": "Hilacha",
         "kilos": "jg123",
-        "total": "user"
+        "proveedor": "Corpmangos SAS"
     },
     "fruta4": {
         "nombre": "Fresa",
-        "descripcion": "edwinm",
+        "descripcion": "Ventana",
         "kilos": "em123",
-        "total": "user"
+        "proveedor": "Fresacol SA"
     }
 }
