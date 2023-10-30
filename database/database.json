@@ -71,36 +71,30 @@
       }
     }
   },
-  "usuarios": {
-    "user1": {
-      "nombre": "Jorge",
-      "user": "jlmunoz",
-      "password": "jl123",
-      "perfil": "admin"
+  "frutas": {
+    "fruta1": {
+      "nombre": "Manzana",
+      "descripcion": "jlmunoz",
+      "kilos": "jl123",
+      "total": "admin"
     },
-    "user2": {
-      "nombre": "Larry",
-      "user": "larrym",
-      "password": "lm123",
-      "perfil": "user"
+    "fruta2": {
+      "nombre": "Banano",
+      "descripcion": "larrym",
+      "kilos": "lm123",
+      "total": "user"
     },
-    "user3": {
-      "nombre": "Junior",
-      "user": "juniorg",
-      "password": "jg123",
-      "perfil": "user"
+    "fruta3": {
+      "nombre": "Mango",
+      "descripcion": "juniorg",
+      "kilos": "jg123",
+      "total": "user"
     },
-    "user4": {
-      "nombre": "Edwin",
-      "user": "edwinm",
-      "password": "em123",
-      "perfil": "user"
-    },
-    "user5": {
-      "nombre": "Monica",
-      "user": "monicay",
-      "password": "my123",
-      "perfil": "user"
+    "fruta4": {
+      "nombre": "Fresa",
+      "descripcion": "edwinm",
+      "kilos": "em123",
+      "total": "user"
     }
   }
 }
