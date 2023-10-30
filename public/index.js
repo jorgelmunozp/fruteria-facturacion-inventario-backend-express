@@ -135,7 +135,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
               <p> Frutas Disponibles </p>
               <table border='1'>
                 <tr>
-                  <th> Nombre </th>
+                  <th> Fruta </th>
                   <th> Descripcion </th>
                   <th> Kilos </th>
                   <th> Total </th>
