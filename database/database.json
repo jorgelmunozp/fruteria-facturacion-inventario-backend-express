@@ -75,25 +75,25 @@
     "fruta1": {
       "nombre": "Manzana",
       "descripcion": "Golden Delicious",
-      "kilos": "jl123",
+      "valorkilo": "4200",
       "proveedor": "Distrimanzanas SAS"
     },
     "fruta2": {
         "nombre": "Banano",
         "descripcion": "Dominico",
-        "kilos": "lm123",
+        "valorkilo": "2200",
         "proveedor": "Colbananos SA"
     },
     "fruta3": {
         "nombre": "Mango",
         "descripcion": "Hilacha",
-        "kilos": "jg123",
+        "valorkilo": "3500",
         "proveedor": "Corpomangos SAS"
     },
     "fruta4": {
         "nombre": "Fresa",
         "descripcion": "Ventana",
-        "kilos": "em123",
+        "valorkilo": "2700",
         "proveedor": "Fresacol SA"
     }
   }
