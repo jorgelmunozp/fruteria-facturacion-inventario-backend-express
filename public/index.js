@@ -1,9 +1,12 @@
 // const urlApiInventario = 'http://localhost:3000/inventario';
 // const urlApiFactura = 'http://localhost:3000/factura';
+// const urlApiFactura = 'http://localhost:3000/frutas';
 // const urlApiInventario = 'http://192.168.18.249:8800/inventario';
 // const urlApiFactura = 'http://192.168.18.249:8800/factura';
+// const urlApiFactura = 'http://192.168.18.249:8800/frutas';
 const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
 const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
+const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -118,6 +121,50 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                     <td> ${formatterPeso.format(factura.detalle.fresas.total)} </td>
                   </tr>  
                 </table>
+            </div>
+      `
+  })
+
+  fetch(urlApiFrutas)                 //API REST para la simulación de la tabla FACTURA de la base de datos
+  .then(response => response.json())
+  .then(frutas => {
+      let contenidoFrutas = document.getElementById('contenidoFrutas');
+
+      contenidoFrutas.innerHTML = `
+            <div>
+              <p> Frutas Disponibles </p>
+              <table border='1'>
+                <tr>
+                  <th> Nombre </th>
+                  <th> Descripcion </th>
+                  <th> Kilos </th>
+                  <th> Total </th>
+                </tr>  
+                <tr>
+                  <td> ${frutas.fruta1.nombre} </td>
+                  <td> ${frutas.fruta1.descripcion} </td>
+                  <td> ${frutas.fruta1.kilos} </td>
+                  <td> ${frutas.fruta1.total} </td>
+                </tr>   
+                <tr>
+                  <td> ${frutas.fruta2.nombre} </td>
+                  <td> ${ffrutas.fruta2.descripcion} </td>
+                  <td> ${frutas.fruta2.kilos} </td>
+                  <td> ${frutas.fruta2.total} </td>
+                </tr> 
+                <tr>
+                  <td> ${frutas.fruta3.nombre} </td>
+                  <td> ${frutas.fruta3.descripcion} </td>
+                  <td> ${frutas.fruta3.kilos} </td>
+                  <td> ${frutas.fruta3.total} </td>
+                </tr>      
+                <tr>
+                  <td> ${frutas.fruta4.nombre} </td>
+                  <td> ${frutas.fruta4.descripcion} </td>
+                  <td> ${frutas.fruta4.kilos} </td>
+                  <td> ${frutas.fruta4.total} </td>
+                </tr>  
+              </table>
             </div>
       `
   })
