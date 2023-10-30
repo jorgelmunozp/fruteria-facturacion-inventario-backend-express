@@ -1,12 +1,12 @@
-const urlApiInventario = 'http://localhost:3000/inventario';
-const urlApiFactura = 'http://localhost:3000/factura';
-const urlApiFrutas = 'http://localhost:3000/frutas';
+// const urlApiInventario = 'http://localhost:3000/inventario';
+// const urlApiFactura = 'http://localhost:3000/factura';
+// const urlApiFrutas = 'http://localhost:3000/frutas';
 // const urlApiInventario = 'http://192.168.18.249:8800/inventario';
 // const urlApiFactura = 'http://192.168.18.249:8800/factura';
 // const urlApiFrutas = 'http://192.168.18.249:8800/frutas';
-// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
-// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-// const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
+const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
+const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
+const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
