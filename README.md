@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/status-close-ff3333">
 </p>
 
-* Demo: [Inventario Frutería](https://jorgelmunozp.github.io/express-fruteria-inventario-backend/)
+* Demo: [Inventario Frutería Backend](https://jorgelmunozp.github.io/express-fruteria-inventario-backend/)
 
 ***
 
