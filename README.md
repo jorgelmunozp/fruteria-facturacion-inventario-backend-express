@@ -1,4 +1,4 @@
-<h1 align="center"> Inventario Fruteria | Node Js App </h1>
+<h1 align="center"> Inventario Frutería | Node Js App </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-f1e05a">
