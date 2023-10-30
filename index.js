@@ -67,7 +67,6 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
       `
   })
 
-
   fetch(urlApiFactura)                 //API REST para la simulación de la tabla FACTURA de la base de datos
   .then(response => response.json())
   .then(factura => {
@@ -120,58 +119,6 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                     <td> ${formatterPeso.format(factura.detalle.fresas.subtotal)} </td>
                     <td> ${formatterPeso.format(factura.detalle.fresas.descuento)} </td>
                     <td> ${formatterPeso.format(factura.detalle.fresas.total)} </td>
-                  </tr>  
-                </table>
-            </div>
-      `
-  })
-
-
-
-  fetch(urlApiUsuarios)                 //API REST para la simulación de la tabla USUARIOS de la base de datos
-  .then(response => response.json())
-  .then(usuarios => {
-      let contenidoUsuarios = document.getElementById('contenidoUsuarios');
-
-      contenidoUsuarios.innerHTML = `
-            <div>
-            <p> Usuarios </p>
-              <table border='1'>
-                  <tr>
-                    <th> Nombre </th>
-                    <th> Usuario </th>
-                    <th> Contraseña </th>
-                    <th> Perfil </th>
-                  </tr>  
-                  <tr>
-                    <td> ${usuarios.user1.nombre} </td>
-                    <td> ${usuarios.user1.user} </td>
-                    <td> ${usuarios.user1.password} </td>
-                    <td> ${usuarios.user1.perfil} </td>
-                  </tr>   
-                  <tr>
-                    <td> ${usuarios.user2.nombre} </td>
-                    <td> ${usuarios.user2.user} </td>
-                    <td> ${usuarios.user2.password} </td>
-                    <td> ${usuarios.user2.perfil} </td>
-                  </tr> 
-                  <tr>
-                    <td> ${usuarios.user3.nombre} </td>
-                    <td> ${usuarios.user3.user} </td>
-                    <td> ${usuarios.user3.password} </td>
-                    <td> ${usuarios.user3.perfil} </td>
-                  </tr>      
-                  <tr>
-                    <td> ${usuarios.user4.nombre} </td>
-                    <td> ${usuarios.user4.user} </td>
-                    <td> ${usuarios.user4.password} </td>
-                    <td> ${usuarios.user4.perfil} </td>
-                  </tr>  
-                  <tr>
-                    <td> ${usuarios.user5.nombre} </td>
-                    <td> ${usuarios.user5.user} </td>
-                    <td> ${usuarios.user5.password} </td>
-                    <td> ${usuarios.user5.perfil} </td>
                   </tr>  
                 </table>
             </div>
