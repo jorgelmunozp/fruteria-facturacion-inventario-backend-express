@@ -1,26 +1,26 @@
 {
     "fruta1": {
-      "nombre": "Manzana",
-      "descripcion": "jlmunoz",
-      "kilos": "jl123",
-      "total": "admin"
+        "nombre": "Manzana",
+        "descripcion": "jlmunoz",
+        "kilos": "jl123",
+        "total": "admin"
     },
     "fruta2": {
-      "nombre": "Banano",
-      "descripcion": "larrym",
-      "kilos": "lm123",
-      "total": "user"
+        "nombre": "Banano",
+        "descripcion": "larrym",
+        "kilos": "lm123",
+        "total": "user"
     },
     "fruta3": {
-      "nombre": "Mango",
-      "descripcion": "juniorg",
-      "kilos": "jg123",
-      "total": "user"
+        "nombre": "Mango",
+        "descripcion": "juniorg",
+        "kilos": "jg123",
+        "total": "user"
     },
     "fruta4": {
-      "nombre": "Fresa",
-      "descripcion": "edwinm",
-      "kilos": "em123",
-      "total": "user"
+        "nombre": "Fresa",
+        "descripcion": "edwinm",
+        "kilos": "em123",
+        "total": "user"
     }
-  }
+}

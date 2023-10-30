@@ -24,7 +24,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
       let contenidoInventario = document.getElementById('contenidoInventario');
 
       contenidoInventario.innerHTML = `
-            <div class="columnaContenido">  
+            <div>  
               <p> Inventario </p>
               <table border='1'>
                 <tr>
@@ -135,7 +135,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
               <p> Frutas Disponibles </p>
               <table border='1'>
                 <tr>
-                  <th> Nombre </th>
+                  <th> Fruta </th>
                   <th> Descripcion </th>
                   <th> Kilos </th>
                   <th> Total </th>
@@ -148,7 +148,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                 </tr>   
                 <tr>
                   <td> ${frutas.fruta2.nombre} </td>
-                  <td> ${ffrutas.fruta2.descripcion} </td>
+                  <td> ${frutas.fruta2.descripcion} </td>
                   <td> ${frutas.fruta2.kilos} </td>
                   <td> ${frutas.fruta2.total} </td>
                 </tr> 
