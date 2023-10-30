@@ -74,27 +74,27 @@
   "frutas": {
     "fruta1": {
       "nombre": "Manzana",
-      "descripcion": "jlmunoz",
+      "descripcion": "Golden Delicious",
       "kilos": "jl123",
-      "total": "admin"
+      "proveedor": "Distrimanzanas SAS"
     },
     "fruta2": {
-      "nombre": "Banano",
-      "descripcion": "larrym",
-      "kilos": "lm123",
-      "total": "user"
+        "nombre": "Banano",
+        "descripcion": "Dominico",
+        "kilos": "lm123",
+        "proveedor": "Colbananos SA"
     },
     "fruta3": {
-      "nombre": "Mango",
-      "descripcion": "juniorg",
-      "kilos": "jg123",
-      "total": "user"
+        "nombre": "Mango",
+        "descripcion": "Hilacha",
+        "kilos": "jg123",
+        "proveedor": "Corpmangos SAS"
     },
     "fruta4": {
-      "nombre": "Fresa",
-      "descripcion": "edwinm",
-      "kilos": "em123",
-      "total": "user"
+        "nombre": "Fresa",
+        "descripcion": "Ventana",
+        "kilos": "em123",
+        "proveedor": "Fresacol SA"
     }
   }
 }
