@@ -1,5 +1,5 @@
 *{
-    font: 20px 'Century Gothic', Helvetica, Arial, sans-serif;
+    font: 26px 'Century Gothic', Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
   }
   
@@ -21,7 +21,7 @@
       background-image: url("images/banner.jpg");
       background-size: cover;
       width:100%;
-      height: 8vmin;
+      height: 10vmin;
   }
 
   .slogan {
@@ -30,10 +30,11 @@
   }
   
   #header img{								          /***** Logo header *****/
-    width: 4vmin;
+    width: 6vmin;
     filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 1));
   }
   #header h1 {							        /***** Titulo header *****/
+    margin-top: 2vmin;
     font-size: 4vmin;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -86,6 +87,11 @@
   }
   #contenido table th{
     background-color: #500;
+    font-size: 16px;
+    padding: 1px 1vmin 1px 1vmin;
+  }
+  #contenido table td{
+    padding: 1px 1vmin 1px 1vmin;
   }
   #contenido table tr:nth-child(even){background-color: rgba(25,25,25,0.8);}
   #contenido table tr:nth-child(odd){background-color: rgba(25,12,0,0.8);}
@@ -101,9 +107,11 @@
   #tablaDatos th{
     border: 1px inset white;
     font-weight: bolder;
+    padding: 0 0.5vmin 0 0.5vmin;
   }
   #tablaDatos tr, #tablaDatos td{
     border: 1px inset white;
+    padding: 0 0.5vmin 0 0.5vmin;
   }
   
   
@@ -122,6 +130,7 @@
   /* Menu1 */
   #fruta{
     width:50px;
+    padding: 2vmin 3vmin 2vmin 3vmin;
     filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 1));
   }
 
