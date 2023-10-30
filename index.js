@@ -1,12 +1,12 @@
-// const urlApiInventario = 'http://localhost:3000/inventario';
-// const urlApiFactura = 'http://localhost:3000/factura';
-// const urlApiFactura = 'http://localhost:3000/frutas';
+const urlApiInventario = 'http://localhost:3000/inventario';
+const urlApiFactura = 'http://localhost:3000/factura';
+const urlApiFrutas = 'http://localhost:3000/frutas';
 // const urlApiInventario = 'http://192.168.18.249:8800/inventario';
 // const urlApiFactura = 'http://192.168.18.249:8800/factura';
-// const urlApiFactura = 'http://192.168.18.249:8800/frutas';
-const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
-const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
+// const urlApiFrutas = 'http://192.168.18.249:8800/frutas';
+// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
+// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
+// const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -65,7 +65,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
               </table>
             </div>
       `
-  })
+  });
 
   fetch(urlApiFactura)                 //API REST para la simulación de la tabla FACTURA de la base de datos
   .then(response => response.json())
@@ -123,7 +123,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                 </table>
             </div>
       `
-  })
+  });
 
   fetch(urlApiFrutas)                 //API REST para la simulación de la tabla FACTURA de la base de datos
   .then(response => response.json())
@@ -167,4 +167,4 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
               </table>
             </div>
       `
-  })
+  });
