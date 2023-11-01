@@ -3,13 +3,13 @@
         "nombre": "Manzana",
         "descripcion": "Golden Delicious",
         "valorkilo": "4200",
-        "proveedor": "Distrimanzanas SAS"
+        "proveedor": "Manzanacol SA"
     },
     "fruta2": {
         "nombre": "Banano",
         "descripcion": "Dominico",
         "valorkilo": "2200",
-        "proveedor": "Colbananos SA"
+        "proveedor": "Colbananos SAS"
     },
     "fruta3": {
         "nombre": "Mango",
@@ -21,6 +21,6 @@
         "nombre": "Fresa",
         "descripcion": "Ventana",
         "valorkilo": "2700",
-        "proveedor": "Fresacol SA"
+        "proveedor": "Distrifresas SA"
     }
 }
