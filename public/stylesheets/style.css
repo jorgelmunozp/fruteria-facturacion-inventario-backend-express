@@ -7,7 +7,7 @@
 }
 
 *{
-    font: 28px 'Century Gothic', Helvetica, Arial, sans-serif;
+    font: 3.5vmin 'Century Gothic', Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
   }
   
@@ -24,8 +24,7 @@
   
   /*************************** HEADER **************************/
   #header{							/***** Contenedor div del header *****/
-      background-image: url("images/banner.jpg");
-      background-size: cover;
+      background-color: var(--dark-color);
       width:100%;
       height: 12vmin;
   }
@@ -37,7 +36,7 @@
   
   #header img{								          /***** Logo header *****/
     width: 8vmin;
-    filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 1));
+    /* filter: drop-shadow(0.5px 0.5px 1px rgba(255, 255, 255, 0.25)); */
   }
   #header h1 {							        /***** Titulo header *****/
     margin-top: 3vmin;
