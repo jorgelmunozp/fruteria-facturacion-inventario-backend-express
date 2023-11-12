@@ -74,7 +74,7 @@
   "frutas": {
     "fruta1": {
       "nombre": "Manzana",
-      "descripcion": "Golden Delicious",
+      "descripcion": "Golden",
       "valorkilo": "4200",
       "proveedor": "Distrimanzanas SAS"
     },

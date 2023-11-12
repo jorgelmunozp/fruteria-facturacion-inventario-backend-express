@@ -25,7 +25,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
 
       contenidoInventario.innerHTML = `
             <div>  
-              <p> Inventario </p>
+              <h4> Inventario </h4>
               <table border='1'>
                 <tr>
                   <th> Fruta </th>
@@ -74,7 +74,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
 
       contenidoFactura.innerHTML = `
             <div>
-              <p> Última Factura Recibida</p> 
+              <h4> Última Factura Recibida</h4> 
               <table border='1'>
                   <tr>
                     <th> Número </th>
@@ -132,7 +132,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
 
       contenidoFrutas.innerHTML = `
             <div>
-              <p> Frutas Disponibles </p>
+              <h4> Frutas Disponibles </h4>
               <table border='1'>
                 <tr>
                   <th> Fruta </th>
