@@ -1,13 +1,19 @@
+:root {
+  --lightgray-color: #ddd;
+  --dark-color: #212529;
+  --main-color: #5285c5;
+  --orange-color: #f38d3a;
+  --white-color: #fff;
+}
+
 *{
-    font: 28px 'Century Gothic', Helvetica, Arial, sans-serif;
+    font: 3.5vmin 'Century Gothic', Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
   }
   
   body {
-    background: url("images/fondo.svg");
-    background-size: cover;
-    background-color: #300;
-    color: white;
+    background-color: var(--white-color);
+    color: var(--main-color);
     font-size: 30px;
   }
   
@@ -18,8 +24,7 @@
   
   /*************************** HEADER **************************/
   #header{							/***** Contenedor div del header *****/
-      background-image: url("images/banner.jpg");
-      background-size: cover;
+      background-color: var(--dark-color);
       width:100%;
       height: 12vmin;
   }
@@ -31,7 +36,7 @@
   
   #header img{								          /***** Logo header *****/
     width: 8vmin;
-    filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 1));
+    /* filter: drop-shadow(0.5px 0.5px 1px rgba(255, 255, 255, 0.25)); */
   }
   #header h1 {							        /***** Titulo header *****/
     margin-top: 3vmin;
@@ -49,7 +54,7 @@
     margin-top: -85px;
   }
   nav div a{
-    color:white;
+    color:var(--white-color);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
     font-weight: bold;
     text-decoration: none;
@@ -58,7 +63,7 @@
     display:inline-block;
   }
   nav div a:hover{
-    color:white;
+    color:var(--white-color);
     background-color:rgba(0,0,0,0.1);
   }
   
@@ -89,17 +94,20 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border-collapse: collapse;
   }
   #contenido table th{
-    background-color: #500;
+    background-color: var(--main-color);
     font-size: 22px;
     padding: 1vmin 0 1vmin 0;
+    color: var(--white-color);
   }
   #contenido table td{
     padding: 1vmin 0 1vmin 0;
+    color: var(--dark-color);
   }
-  #contenido table tr:nth-child(even){background-color: rgba(25,25,25,0.8);}
-  #contenido table tr:nth-child(odd){background-color: rgba(25,12,0,0.8);}
+  #contenido table tr:nth-child(even){background-color: rgba(0,0,0,0.05);}
+  #contenido table tr:nth-child(odd){background-color: rgba(0,0,0,0);}
   #grupoFrutas{
      margin-left: 0!important;
   }
@@ -121,8 +129,8 @@
   
   
   input[type=submit]{
-    color: white;
-    background-color: #500;
+    color: var(--white-color);
+    background-color: var(--main-color);
     padding: 2vmin;
     border-radius: 10vmax;
     letter-spacing: 2px;
