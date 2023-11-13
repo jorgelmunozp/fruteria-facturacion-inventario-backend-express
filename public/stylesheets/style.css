@@ -1,25 +1,39 @@
 :root {
-  --lightgray-color: #ddd;
   --dark-color: #212529;
+  --black-color: #000000;
+  --lightgray-color: #dddddd;
   --main-color: #5285c5;
   --orange-color: #f38d3a;
-  --white-color: #fff;
+  --white-color: #ffffff;
 }
 
 *{
-    font: 3.5vmin 'Century Gothic', Helvetica, Arial, sans-serif;
-    letter-spacing: 1px;
+    font-family: 'Century Gothic', Helvetica, Arial, sans-serif;
   }
   
   body {
     background-color: var(--white-color);
     color: var(--main-color);
-    font-size: 30px;
+    margin: 0;
   }
   
   a {
-    color: #00B7FF;
+    color: var(--main-color);
     text-decoration: none;
+  }
+  h1 {
+    font-size: 4.5vmin;
+    font-weight: normal;
+  }
+  h4 {
+    font-size: 4.5vmin;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  hr {
+    margin: 1.5rem 0;
+    opacity: 0.5;
   }
   
   /*************************** HEADER **************************/
@@ -36,14 +50,13 @@
   
   #header img{								          /***** Logo header *****/
     width: 8vmin;
-    /* filter: drop-shadow(0.5px 0.5px 1px rgba(255, 255, 255, 0.25)); */
   }
   #header h1 {							        /***** Titulo header *****/
     margin-top: 3vmin;
     font-size: 4vmin;
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    letter-spacing: 0.5vmin;
+    letter-spacing: 0.25vmin;
   }
 
   
@@ -77,12 +90,13 @@
     right: 2vmin;
   }
   #encabezado h1{
-    font-size: 4vmin;
     letter-spacing: 3px;
   }
   
   #contenido{
     text-align: center;
+    font-size: 1.5rem;
+    margin: 0 2.5rem;
   }
   #contenido div{
     display: block;
@@ -90,17 +104,21 @@
     width: 100%;
   }
   #contenido table{
+    font-size: inherit;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     border-collapse: collapse;
+    border-color: #dee2e6;
   }
   #contenido table th{
     background-color: var(--main-color);
-    font-size: 22px;
-    padding: 1vmin 0 1vmin 0;
     color: var(--white-color);
+    font-size: 3vmin;
+    font-weight: normal;
+    padding: 1vmin 0 1vmin 0;
+    border-bottom: 1.5px solid var(--black-color);
   }
   #contenido table td{
     padding: 1vmin 0 1vmin 0;
@@ -140,18 +158,12 @@
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
   }
   
-  /* Menu1 */
-  #fruta{
-    width: 10vmin;
-    padding: 5vmin 0 5vmin 0;
-    filter: drop-shadow(0.5px 0.5px 2px rgba(255, 255, 255, 1));
-  }
-
-  
+ 
    /*************************** FOOTER **************************/
    #piepagina{
     text-align: center;
-    margin-top: 3vmin;
+    font-size: 3vmin;
+    margin: 0 2.5rem;
   }
   
   

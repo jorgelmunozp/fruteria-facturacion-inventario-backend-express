@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
     <script src="index.js"></script>
     <link rel="stylesheet" href="stylesheets/style.css">  
@@ -6,7 +7,7 @@
     <meta name="description" content="La Frutería | Inventario" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
     <head>
         <div id="header">
             <title>La Frutería</title>
@@ -16,19 +17,19 @@
                         <tr>
                             <td><img id="logo" src="images/logo.svg"/></td>
                             <td>&nbsp;</td>
-                            <td><h1>Frutería</h1></td>
+                            <td><h1>La Frutería</h1></td>
                         </tr>
                     </tbody>
-                </table> 
+                </table>
+                <div id="encabezado">
+                    <form action="/express-fruteria-inventario-backend">
+                        <input type="submit" value="↺" />
+                    </form>
+                </div>
             </a>
         </div>
     </head>
     <body>
-        <div id="encabezado">
-            <form action="/express-fruteria-inventario-backend">
-                <input type="submit" value="↺" />
-            </form>
-        </div>
         <div id="contenido">
             <div id="contenidoInventario">
             </div>
@@ -38,6 +39,7 @@
             </div>
         </div>
     </body>
+    <hr></hr>
     <footer>
         <div id="piepagina">
             <p>Base de Datos API RESTful JSON</p>

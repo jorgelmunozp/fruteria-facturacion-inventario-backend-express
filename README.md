@@ -18,9 +18,9 @@
 
 ## Description
 
-This project consists of the development of a Inventario database application with API RESTful architecture
+This project consists of the development of a Inventario database application with API RESTful architecture.
 
-* It was developed with JavaScript ES6, Html, and Css in Node Js
+* This project was developed with JavaScript ES6, Html, and Css in Node Js.
 
 ## Authors
 
@@ -29,6 +29,6 @@ This project consists of the development of a Inventario database application wi
 
 ## License
 
-Hola mundo is [MIT licensed](/docs/LICENSE.txt).
+La Frutería Inventario is [MIT licensed](/docs/LICENSE.txt).
 
-The Hola mundo documentation (e.g., .md files in the /docs folder) is [Creative Commons licensed](/docs/LICENSE-docs.txt).
+La Frutería Inventario documentation (e.g., .md files in the /docs folder) is [Creative Commons licensed](/docs/LICENSE-docs.txt).
