@@ -79,20 +79,20 @@
     color:var(--white-color);
     background-color:rgba(0,0,0,0.1);
   }
-  
-  
-  /*************************** BODY **************************/
-  #encabezado{
+
+  #menu{
     position: absolute;
     text-align: center;
     display: flex;
-    top: 15vmin;
+    top: 2vmin;
     right: 2vmin;
   }
-  #encabezado h1{
+  #menu h1{
     letter-spacing: 3px;
   }
   
+  
+  /*************************** BODY **************************/ 
   #contenido{
     text-align: center;
     font-size: 1.5rem;
@@ -148,14 +148,12 @@
   
   input[type=submit]{
     color: var(--white-color);
-    background-color: var(--main-color);
-    padding: 2vmin;
-    border-radius: 10vmax;
-    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 2vmin 0 2vmin 0;
+    border-radius: 100vmax;
     font-size: inherit;
-    width: 10vmin;
+    width: 8vmin;
     cursor: pointer;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 1));
   }
   
  
