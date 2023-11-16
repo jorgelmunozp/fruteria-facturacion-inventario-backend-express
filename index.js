@@ -6,6 +6,11 @@
 // const urlApiFactura = 'http://192.168.18.249:8800/proveedores';
 // const urlApiProveedores = 'http://192.168.18.249:8800/frutas';
 // const urlApiDescuentos = 'http://192.168.18.249:8800/descuentos';
+
+// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario';
+// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura';
+// const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores';
+// const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos';
 const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
 const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
 const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores.json';
