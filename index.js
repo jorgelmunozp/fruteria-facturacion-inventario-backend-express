@@ -151,7 +151,7 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                 <tr>
                   <th> Fruta </th>
                   <th> Descripción </th>
-                  <th> Valor (Kilo) </th>
+                  <th> Valor Kilo </th>
                   <th> Proveedor </th>
                 </tr>  
                 <tr>
@@ -200,19 +200,19 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                 </tr>  
                 <tr>
                   <td> ${descuentos.descuento1.cantidad} </td>
-                  <td> ${descuentos.descuento1.descuento} </td>
+                  <td> ${descuentos.descuento1.descuento} %</td>
                 </tr>   
                 <tr>
                   <td> ${descuentos.descuento2.cantidad} </td>
-                  <td> ${descuentos.descuento2.descuento} </td>
+                  <td> ${descuentos.descuento2.descuento} %</td>
                 </tr> 
                 <tr>
                   <td> ${descuentos.descuento3.cantidad} </td>
-                  <td> ${descuentos.descuento3.descuento} </td>
+                  <td> ${descuentos.descuento3.descuento} %</td>
                 </tr>      
                 <tr>
                   <td> ${descuentos.descuento4.cantidad} </td>
-                  <td> ${descuentos.descuento4.descuento} </td>
+                  <td> ${descuentos.descuento4.descuento} %</td>
                 </tr>  
               </table>
             </div>
