@@ -1,0 +1,18 @@
+{
+    "descuento1": {
+        "cantidad": "0 - 2",
+        "descuento": "0"
+    },
+    "descuento2": {
+        "cantidad": "3 - 5",
+        "descuento": "5"
+    },
+    "descuento3": {
+        "cantidad": "6 - 10",
+        "descuento": "10"
+    },
+    "descuento4": {
+        "cantidad": "11+",
+        "descuento": "15"
+    }
+}
