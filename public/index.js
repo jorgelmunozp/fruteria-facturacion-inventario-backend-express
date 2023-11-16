@@ -1,12 +1,15 @@
 // const urlApiInventario = 'http://localhost:3000/inventario';
-// const urlApiFactura = 'http://localhost:3000/factura';
-// const urlApiFrutas = 'http://localhost:3000/frutas';
+// const urlApiFactura = 'http://localhost:3000/proveedores';
+// const urlApiProveedores = 'http://localhost:3000/frutas';
+// const urlApiDescuentos = 'http://localhost:3000/descuentos';
 // const urlApiInventario = 'http://192.168.18.249:8800/inventario';
-// const urlApiFactura = 'http://192.168.18.249:8800/factura';
-// const urlApiFrutas = 'http://192.168.18.249:8800/frutas';
+// const urlApiFactura = 'http://192.168.18.249:8800/proveedores';
+// const urlApiProveedores = 'http://192.168.18.249:8800/frutas';
+// const urlApiDescuentos = 'http://192.168.18.249:8800/descuentos';
 const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
 const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-const urlApiFrutas = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/frutas.json';
+const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores.json';
+const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -129,15 +132,15 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
       `
   });
 
-  fetch(urlApiFrutas)                 //API REST para la simulación de la tabla FACTURA de la base de datos
+  fetch(urlApiProveedores)                 //API REST para la simulación de la tabla PROVEEDORES de la base de datos
   .then(response => response.json())
-  .then(frutas => {
+  .then(proveedores => {
       let contenidoFrutas = document.getElementById('contenidoFrutas');
 
       contenidoFrutas.innerHTML = `
             <div>
               <hr></hr>
-              <h4> Frutas Disponibles </h4>
+              <h4> Proveedores </h4>
               <hr></hr>
               <table border='1'>
                 <tr>
@@ -147,28 +150,64 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   <th> Proveedor </th>
                 </tr>  
                 <tr>
-                  <td> ${frutas.fruta1.nombre} </td>
-                  <td> ${frutas.fruta1.descripcion} </td>
-                  <td> ${formatterPeso.format(frutas.fruta1.valorkilo)} </td>
-                  <td> ${frutas.fruta1.proveedor} </td>
+                  <td> ${proveedores.fruta1.nombre} </td>
+                  <td> ${proveedores.fruta1.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores.fruta1.valorkilo)} </td>
+                  <td> ${proveedores.fruta1.proveedor} </td>
                 </tr>   
                 <tr>
-                  <td> ${frutas.fruta2.nombre} </td>
-                  <td> ${frutas.fruta2.descripcion} </td>
-                  <td> ${formatterPeso.format(frutas.fruta2.valorkilo)} </td>
-                  <td> ${frutas.fruta2.proveedor} </td>
+                  <td> ${proveedores.fruta2.nombre} </td>
+                  <td> ${proveedores.fruta2.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores.fruta2.valorkilo)} </td>
+                  <td> ${proveedores.fruta2.proveedor} </td>
                 </tr> 
                 <tr>
-                  <td> ${frutas.fruta3.nombre} </td>
-                  <td> ${frutas.fruta3.descripcion} </td>
-                  <td> ${formatterPeso.format(frutas.fruta3.valorkilo)} </td>
-                  <td> ${frutas.fruta3.proveedor} </td>
+                  <td> ${proveedores.fruta3.nombre} </td>
+                  <td> ${proveedores.fruta3.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores.fruta3.valorkilo)} </td>
+                  <td> ${proveedores.fruta3.proveedor} </td>
                 </tr>      
                 <tr>
-                  <td> ${frutas.fruta4.nombre} </td>
-                  <td> ${frutas.fruta4.descripcion} </td>
-                  <td> ${formatterPeso.format(frutas.fruta4.valorkilo)} </td>
-                  <td> ${frutas.fruta4.proveedor} </td>
+                  <td> ${proveedores.fruta4.nombre} </td>
+                  <td> ${proveedores.fruta4.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores.fruta4.valorkilo)} </td>
+                  <td> ${proveedores.fruta4.proveedor} </td>
+                </tr>  
+              </table>
+            </div>
+      `
+  });
+
+  fetch(urlApiDescuentos)                 //API REST para la simulación de la tabla DESCUENTOS de la base de datos
+  .then(response => response.json())
+  .then(descuentos => {
+      let contenidoDescuentos = document.getElementById('contenidoDescuentos');
+
+      contenidoDescuentos.innerHTML = `
+            <div>
+              <hr></hr>
+              <h4> Descuentos </h4>
+              <hr></hr>
+              <table border='1'>
+                <tr>
+                  <th> Cantidad </th>
+                  <th> Descuento </th>
+                </tr>  
+                <tr>
+                  <td> ${descuentos.descuento1.cantidad} </td>
+                  <td> ${descuentos.descuento1.descuento} </td>
+                </tr>   
+                <tr>
+                  <td> ${descuentos.descuento2.cantidad} </td>
+                  <td> ${descuentos.descuento2.descuento} </td>
+                </tr> 
+                <tr>
+                  <td> ${descuentos.descuento3.cantidad} </td>
+                  <td> ${descuentos.descuento3.descuento} </td>
+                </tr>      
+                <tr>
+                  <td> ${descuentos.descuento4.cantidad} </td>
+                  <td> ${descuentos.descuento4.descuento} </td>
                 </tr>  
               </table>
             </div>
