@@ -6,7 +6,7 @@
       "cantidad": 76,
       "ventas": 5,
       "kilos": 12,
-      "total": 2505
+      "total": 28500
     },
     "bananos": {
       "id": 1,
@@ -14,7 +14,7 @@
       "cantidad": 65,
       "ventas": 4,
       "kilos": 12,
-      "total": 12371
+      "total": 12370
     },
     "mangos": {
       "id": 2,
@@ -22,7 +22,7 @@
       "cantidad": 90,
       "ventas": 7,
       "kilos": 23,
-      "total": 8967
+      "total": 8960
     },
     "fresas": {
       "id": 3,
@@ -30,7 +30,7 @@
       "cantidad": 90,
       "ventas": 4,
       "kilos": 35,
-      "total": 8761
+      "total": 8760
     }
   },
   "factura": {
