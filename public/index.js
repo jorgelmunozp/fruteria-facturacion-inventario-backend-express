@@ -1,17 +1,20 @@
-const urlApiInventario = 'http://localhost:3000/inventario';
-const urlApiFactura = 'http://localhost:3000/factura';
-const urlApiProveedores = 'http://localhost:3000/proveedores';
-const urlApiDescuentos = 'http://localhost:3000/descuentos';
+// DEV
+// const urlApiInventario = 'http://localhost:3000/inventario';
+// const urlApiFactura = 'http://localhost:3000/factura';
+// const urlApiProveedores = 'http://localhost:3000/proveedores';
+// const urlApiDescuentos = 'http://localhost:3000/descuentos';
 
+// NON PROD
 // const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario';
 // const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura';
 // const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores';
 // const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos';
 
-// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
-// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-// const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores.json';
-// const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos.json';
+// PROD
+const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
+const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
+const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores.json';
+const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
