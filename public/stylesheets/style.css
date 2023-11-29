@@ -117,8 +117,8 @@
     padding: 0 0.5vmin 0 0.5vmin;
   }
   
-    input[type=submit]{
-    color: var(--white-color);
+  input[type=submit]{
+    color: var(--main-color);
     background-color: transparent;
     padding: 1.5vmin 0 1.5vmin 0;
     border-radius: 100vmax;
