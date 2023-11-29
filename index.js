@@ -5,16 +5,16 @@
 // const urlApiDescuentos = 'http://localhost:3000/descuentos';
 
 // NON PROD
-// const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario';
-// const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura';
-// const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores';
-// const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos';
+// const urlApiInventario = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/inventario';
+// const urlApiFactura = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/factura';
+// const urlApiProveedores = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/proveedores';
+// const urlApiDescuentos = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/descuentos';
 
 // PROD
-const urlApiInventario = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/inventario.json';
-const urlApiFactura = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/factura.json';
-const urlApiProveedores = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/proveedores.json';
-const urlApiDescuentos = 'https://jorgelmunozp.github.io/express-fruteria-inventario-backend/descuentos.json';
+const urlApiInventario = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/inventario.json';
+const urlApiFactura = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/factura.json';
+const urlApiProveedores = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/proveedores.json';
+const urlApiDescuentos = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/descuentos.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
