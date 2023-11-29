@@ -8,7 +8,7 @@
 }
 
 *{
-    font-family: 'Century Gothic', Helvetica, Arial, sans-serif;
+    font: 2.5vmin 'Century Gothic', Helvetica, Arial, sans-serif;
   }
   
   body {
@@ -22,14 +22,13 @@
     text-decoration: none;
   }
   h1 {
-    font-size: 4.5vmin;
     font-weight: normal;
   }
   h4 {
-    font-size: 4.5vmin;
     font-weight: normal;
     margin-block-start: 0;
     margin-block-end: 0;
+    line-height: 0;
   }
   hr {
     margin: 1.5rem 0;
@@ -40,7 +39,7 @@
   #header{							/***** Contenedor div del header *****/
       background-color: var(--dark-color);
       width:100%;
-      height: 12vmin;
+      height: 10vmin;
   }
 
   .slogan {
@@ -49,38 +48,16 @@
   }
   
   #header img{								          /***** Logo header *****/
-    width: 8vmin;
+    width: 6vmin;
   }
   #header h1 {							        /***** Titulo header *****/
-    margin-top: 3vmin;
-    font-size: 4vmin;
+    margin-top: 1.5vmin;
+    font-size: 3vmin;
     color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    letter-spacing: 0.25vmin;
   }
 
-  
   /*************************** MENU NAV **************************/
-  nav div{
-    width:100%;
-    text-align: right;
-    margin-top: -85px;
-  }
-  nav div a{
-    color:var(--white-color);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
-    font-weight: bold;
-    text-decoration: none;
-    text-align:center;
-    padding: 15px 2.5% 15px 2.5%;
-    display:inline-block;
-  }
-  nav div a:hover{
-    color:var(--white-color);
-    background-color:rgba(0,0,0,0.1);
-  }
-
-  #menu {
+   #menu {
     position: absolute;
     text-align: center;
     display: flex;
@@ -92,7 +69,6 @@
   /*************************** BODY **************************/ 
   #contenido{
     text-align: center;
-    font-size: 1.5rem;
     margin: 0 2.5rem;
   }
   #contenido div{
@@ -112,7 +88,7 @@
   #contenido table th{
     background-color: var(--main-color);
     color: var(--white-color);
-    font-size: 3vmin;
+    font-size: 2vmin;
     font-weight: normal;
     padding: 1vmin 0 1vmin 0;
     border-bottom: 1.5px solid var(--black-color);
@@ -134,7 +110,6 @@
   }
   #tablaDatos th{
     border: 1px inset white;
-    font-weight: bolder;
     padding: 0 0.5vmin 0 0.5vmin;
   }
   #tablaDatos tr, #tablaDatos td{
@@ -142,14 +117,13 @@
     padding: 0 0.5vmin 0 0.5vmin;
   }
   
-  
-  input[type=submit]{
+    input[type=submit]{
     color: var(--white-color);
     background-color: transparent;
-    padding: 2vmin 0 2vmin 0;
+    padding: 1.5vmin 0 1.5vmin 0;
     border-radius: 100vmax;
     font-size: inherit;
-    width: 8vmin;
+    width: 7vmin;
     cursor: pointer;
   }
   
