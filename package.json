@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jorgelmunozp.github.io/express-fruteria-inventario-backend/",
+  "homepage": "https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
     "dotenv": "^16.3.1",
