@@ -1,6 +1,6 @@
 [
     {
-        "detalle": {
+        "detail": {
             "nombre": "Manzana",
             "descripcion": "Golden",
             "valorkilo": "4200",
@@ -9,7 +9,7 @@
         "id": 1
     },
     {
-        "detalle": {
+        "detail": {
             "nombre": "Banano",
             "descripcion": "Dominico",
             "valorkilo": "2200",
@@ -18,7 +18,7 @@
         "id": 2
     },
     {
-        "detalle": {
+        "detail": {
             "nombre": "Mango",
             "descripcion": "Hilacha",
             "valorkilo": "3500",
@@ -27,7 +27,7 @@
         "id": 3
     },
     {
-        "detalle": {
+        "detail": {
             "nombre": "Fresa",
             "descripcion": "Ventana",
             "valorkilo": "2700",
