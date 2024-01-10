@@ -153,12 +153,20 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   <th> Descripción </th>
                   <th> Valor Kilo </th>
                   <th> Proveedor </th>
-                </tr>  
+                </tr>
+                // {proveedores.map(proveedor => (
+                //   <tr>
+                //     <td> {proveedor.detail.nombre} </td>
+                //     <td> {proveedor.detail.descripcion} </td>
+                //     <td> {formatterPeso.format(proveedor.detail.valorkilo)} </td>
+                //     <td> {proveedor.detail.proveedor} </td>
+                //   </tr> 
+                // ))}
                 <tr>
-                  <td> ${proveedores.fruta1.nombre} </td>
-                  <td> ${proveedores.fruta1.descripcion} </td>
-                  <td> ${formatterPeso.format(proveedores.fruta1.valorkilo)} </td>
-                  <td> ${proveedores.fruta1.proveedor} </td>
+                  <td> ${proveedores.detail.nombre} </td>
+                  <td> ${proveedores.detail.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores.detail.valorkilo)} </td>
+                  <td> ${proveedores.detail.proveedor} </td>
                 </tr>   
                 <tr>
                   <td> ${proveedores.fruta2.nombre} </td>
