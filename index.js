@@ -45,32 +45,32 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   <th> Total </th>
                 </tr>  
                 <tr>
-                  <td> ${inventario.manzanas.nombre} </td>
-                  <td> ${formatterMiles.format(inventario.manzanas.cantidad)} </td>
-                  <td> ${formatterMiles.format(inventario.manzanas.ventas)} </td>
-                  <td> ${formatterMiles.format(inventario.manzanas.kilos)} </td>
-                  <td> ${formatterPeso.format(inventario.manzanas.total)} </td>
+                  <td> ${inventario[0].detail.nombre} </td>
+                  <td> ${formatterMiles.format(inventario[0].detail.cantidad)} </td>
+                  <td> ${formatterMiles.format(inventario[0].detail.ventas)} </td>
+                  <td> ${formatterMiles.format(inventario[0].detail.kilos)} </td>
+                  <td> ${formatterPeso.format(inventario[0].detail.total)} </td>
                 </tr>   
                 <tr>
-                  <td> ${inventario.bananos.nombre} </td>
-                  <td> ${formatterMiles.format(inventario.bananos.cantidad)} </td>
-                  <td> ${formatterMiles.format(inventario.bananos.ventas)} </td>
-                  <td> ${formatterMiles.format(inventario.bananos.kilos)} </td>
-                  <td> ${formatterPeso.format(inventario.bananos.total)} </td>
+                  <td> ${inventario[1].detail.nombre} </td>
+                  <td> ${formatterMiles.format(inventario[1].detail.cantidad)} </td>
+                  <td> ${formatterMiles.format(inventario[1].detail.ventas)} </td>
+                  <td> ${formatterMiles.format(inventario[1].detail.kilos)} </td>
+                  <td> ${formatterPeso.format(inventario[1].detail.total)} </td>
                 </tr> 
                 <tr>
-                  <td> ${inventario.mangos.nombre} </td>
-                  <td> ${formatterMiles.format(inventario.mangos.cantidad)} </td>
-                  <td> ${formatterMiles.format(inventario.mangos.ventas)} </td>
-                  <td> ${formatterMiles.format(inventario.mangos.kilos)} </td>
-                  <td> ${formatterPeso.format(inventario.mangos.total)} </td>
+                  <td> ${inventario[2].detail.nombre} </td>
+                  <td> ${formatterMiles.format(inventario[2].detail.cantidad)} </td>
+                  <td> ${formatterMiles.format(inventario[2].detail.ventas)} </td>
+                  <td> ${formatterMiles.format(inventario[2].detail.kilos)} </td>
+                  <td> ${formatterPeso.format(inventario[2].detail.total)} </td>
                 </tr>      
                 <tr>
-                  <td> ${inventario.fresas.nombre} </td>
-                  <td> ${formatterMiles.format(inventario.fresas.cantidad)} </td>
-                  <td> ${formatterMiles.format(inventario.fresas.ventas)} </td>
-                  <td> ${formatterMiles.format(inventario.fresas.kilos)} </td>
-                  <td> ${formatterPeso.format(inventario.fresas.total)} </td>
+                  <td> ${inventario[3].detail.nombre} </td>
+                  <td> ${formatterMiles.format(inventario[3].detail.cantidad)} </td>
+                  <td> ${formatterMiles.format(inventario[3].detail.ventas)} </td>
+                  <td> ${formatterMiles.format(inventario[3].detail.kilos)} </td>
+                  <td> ${formatterPeso.format(inventario[3].detail.total)} </td>
                 </tr>  
               </table>
             </div>
