@@ -1,0 +1,26 @@
+{
+    "fruta1": {
+        "nombre": "Manzana",
+        "descripcion": "Golden",
+        "valorkilo": "4200",
+        "proveedor": "Manzanacol SA"
+    },
+    "fruta2": {
+        "nombre": "Banano",
+        "descripcion": "Dominico",
+        "valorkilo": "2200",
+        "proveedor": "Colbananos SAS"
+    },
+    "fruta3": {
+        "nombre": "Mango",
+        "descripcion": "Hilacha",
+        "valorkilo": "3500",
+        "proveedor": "Corpomangos SAS"
+    },
+    "fruta4": {
+        "nombre": "Fresa",
+        "descripcion": "Ventana",
+        "valorkilo": "2700",
+        "proveedor": "Distrifresas SA"
+    }
+}
