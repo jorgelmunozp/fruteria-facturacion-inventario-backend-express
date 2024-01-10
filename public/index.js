@@ -154,37 +154,29 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   <th> Valor Kilo </th>
                   <th> Proveedor </th>
                 </tr>
-                // {proveedores.map(proveedor => (
-                //   <tr>
-                //     <td> {proveedor.detail.nombre} </td>
-                //     <td> {proveedor.detail.descripcion} </td>
-                //     <td> {formatterPeso.format(proveedor.detail.valorkilo)} </td>
-                //     <td> {proveedor.detail.proveedor} </td>
-                //   </tr> 
-                // ))}
                 <tr>
-                  <td> ${proveedores.detail.nombre} </td>
-                  <td> ${proveedores.detail.descripcion} </td>
-                  <td> ${formatterPeso.format(proveedores.detail.valorkilo)} </td>
-                  <td> ${proveedores.detail.proveedor} </td>
+                  <td> ${proveedores[0].detail.nombre} </td>
+                  <td> ${proveedores[0].detail.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores[0].detail.valorkilo)} </td>
+                  <td> ${proveedores[0].detail.proveedor} </td>
                 </tr>   
                 <tr>
-                  <td> ${proveedores.fruta2.nombre} </td>
-                  <td> ${proveedores.fruta2.descripcion} </td>
-                  <td> ${formatterPeso.format(proveedores.fruta2.valorkilo)} </td>
-                  <td> ${proveedores.fruta2.proveedor} </td>
+                  <td> ${proveedores[1].detail.nombre} </td>
+                  <td> ${proveedores[1].detail.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores[1].detail.valorkilo)} </td>
+                  <td> ${proveedores[1].detail.proveedor} </td>
                 </tr> 
                 <tr>
-                  <td> ${proveedores.fruta3.nombre} </td>
-                  <td> ${proveedores.fruta3.descripcion} </td>
-                  <td> ${formatterPeso.format(proveedores.fruta3.valorkilo)} </td>
-                  <td> ${proveedores.fruta3.proveedor} </td>
+                  <td> ${proveedores[2].detail.nombre} </td>
+                  <td> ${proveedores[2].detail.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores[2].detail.valorkilo)} </td>
+                  <td> ${proveedores[2].detail.proveedor} </td>
                 </tr>      
                 <tr>
-                  <td> ${proveedores.fruta4.nombre} </td>
-                  <td> ${proveedores.fruta4.descripcion} </td>
-                  <td> ${formatterPeso.format(proveedores.fruta4.valorkilo)} </td>
-                  <td> ${proveedores.fruta4.proveedor} </td>
+                  <td> ${proveedores[3].detail.nombre} </td>
+                  <td> ${proveedores[3].detail.descripcion} </td>
+                  <td> ${formatterPeso.format(proveedores[3].detail.valorkilo)} </td>
+                  <td> ${proveedores[3].detail.proveedor} </td>
                 </tr>  
               </table>
             </div>
@@ -207,20 +199,20 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   <th> Descuento </th>
                 </tr>  
                 <tr>
-                  <td> ${descuentos.descuento1.cantidad} </td>
-                  <td> ${descuentos.descuento1.descuento} %</td>
+                  <td> ${descuentos[0].detail.cantidad} </td>
+                  <td> ${descuentos[0].detail.descuento} %</td>
                 </tr>   
                 <tr>
-                  <td> ${descuentos.descuento2.cantidad} </td>
-                  <td> ${descuentos.descuento2.descuento} %</td>
+                  <td> ${descuentos[1].detail.cantidad} </td>
+                  <td> ${descuentos[1].detail.descuento} %</td>
                 </tr> 
                 <tr>
-                  <td> ${descuentos.descuento3.cantidad} </td>
-                  <td> ${descuentos.descuento3.descuento} %</td>
+                  <td> ${descuentos[2].detail.cantidad} </td>
+                  <td> ${descuentos[2].detail.descuento} %</td>
                 </tr>      
                 <tr>
-                  <td> ${descuentos.descuento4.cantidad} </td>
-                  <td> ${descuentos.descuento4.descuento} %</td>
+                  <td> ${descuentos[3].detail.cantidad} </td>
+                  <td> ${descuentos[3].detail.descuento} %</td>
                 </tr>  
               </table>
             </div>
