@@ -1,18 +1,30 @@
-{
-    "descuento1": {
-        "cantidad": "0 - 2",
-        "descuento": "0"
+[
+    {
+        "detail": {
+            "cantidad": "0 - 2",
+            "descuento": "0"
+        },
+        "id": 1
     },
-    "descuento2": {
-        "cantidad": "3 - 5",
-        "descuento": "5"
+    {    
+        "detail": {
+            "cantidad": "3 - 5",
+            "descuento": "5"
+        },
+        "id": 2
     },
-    "descuento3": {
-        "cantidad": "6 - 10",
-        "descuento": "10"
+    { 
+        "detail": {
+            "cantidad": "6 - 10",
+            "descuento": "10"
+        },
+        "id": 3
     },
-    "descuento4": {
-        "cantidad": "11+",
-        "descuento": "15"
+    { 
+        "detail": {
+            "cantidad": "11+",
+            "descuento": "15"
+        },
+        "id": 4
     }
-}
+]
