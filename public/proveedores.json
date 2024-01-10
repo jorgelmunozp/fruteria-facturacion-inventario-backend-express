@@ -1,26 +1,38 @@
-{
-    "fruta1": {
-        "nombre": "Manzana",
-        "descripcion": "Golden",
-        "valorkilo": "4200",
-        "proveedor": "Manzanacol SA"
+[
+    {
+        "detalle": {
+            "nombre": "Manzana",
+            "descripcion": "Golden",
+            "valorkilo": "4200",
+            "proveedor": "Manzanacol SA"
+        },
+        "id": 1
     },
-    "fruta2": {
-        "nombre": "Banano",
-        "descripcion": "Dominico",
-        "valorkilo": "2200",
-        "proveedor": "Colbananos SAS"
+    {
+        "detalle": {
+            "nombre": "Banano",
+            "descripcion": "Dominico",
+            "valorkilo": "2200",
+            "proveedor": "Colbananos SAS"
+        },
+        "id": 2
     },
-    "fruta3": {
-        "nombre": "Mango",
-        "descripcion": "Hilacha",
-        "valorkilo": "3500",
-        "proveedor": "Corpomangos SAS"
+    {
+        "detalle": {
+            "nombre": "Mango",
+            "descripcion": "Hilacha",
+            "valorkilo": "3500",
+            "proveedor": "Corpomangos SAS"
+        },
+        "id": 3
     },
-    "fruta4": {
-        "nombre": "Fresa",
-        "descripcion": "Ventana",
-        "valorkilo": "2700",
-        "proveedor": "Distrifresas SA"
+    {
+        "detalle": {
+            "nombre": "Fresa",
+            "descripcion": "Ventana",
+            "valorkilo": "2700",
+            "proveedor": "Distrifresas SA"
+        },
+        "id": 4
     }
-}
+]
