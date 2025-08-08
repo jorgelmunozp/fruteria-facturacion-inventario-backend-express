@@ -1,17 +1,17 @@
 {
-  "name": "fruteria-backend-node",
-  "homepage": "https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/",
+  "name": "fruteria-facturacion-inventario-backend-node",
+  "homepage": "https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-node/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "json-server --watch database/database.json  --routes database/routes.json",
+    "start": "json-server --watch database/database.json",
     "predeploy": "harp ./public ./build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "json-server": "^0.17.4",
-    "node-fetch": "2.0"
+    "node-fetch": "^3.3.2"
   },
   "description": "<h1 align=\"center\"> La Frutería Inventario  | Backend NodeJs App </h1>",
   "main": "index.js",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorgelmunozp/express-fruteria-inventario-backend.git"
+    "url": "git+https://github.com/jorgelmunozp/fruteria-facturacion-inventario-backend-node.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jorgelmunozp/express-fruteria-inventario-backend/issues"
+    "url": "https://github.com/jorgelmunozp/fruteria-facturacion-inventario-backend-node/issues"
   }
 }
