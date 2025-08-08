@@ -1,7 +1,7 @@
 [
   {
     "detail": {
-      "nombre": "Manzanas",
+      "nombre": "Manzana",
       "cantidad": 76,
       "ventas": 5,
       "kilos": 12,
@@ -11,7 +11,7 @@
   },
   { 
     "detail": {
-      "nombre": "Bananos",
+      "nombre": "Banano",
       "cantidad": 65,
       "ventas": 4,
       "kilos": 12,
@@ -21,7 +21,7 @@
   },
   { 
     "detail": {
-      "nombre": "Mangos",
+      "nombre": "Mango",
       "cantidad": 90,
       "ventas": 7,
       "kilos": 23,
@@ -31,7 +31,7 @@
   },
   { 
     "detail": {
-      "nombre": "Fresas",
+      "nombre": "Fresa",
       "cantidad": 84,
       "ventas": 4,
       "kilos": 35,
