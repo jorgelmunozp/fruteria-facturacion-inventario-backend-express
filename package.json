@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "json-server --watch database/database.json --host localhost --port 3000 --routes database/routes.json",
+    "start": "json-server --watch database/database.json --routes database/routes.json",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "npm test"
@@ -15,5 +15,22 @@
     "gh-pages": "^6.0.0",
     "json-server": "^0.17.4",
     "node-fetch": "2.0"
+  },
+  "description": "<h1 align=\"center\"> La Frutería Inventario  | Backend NodeJs App </h1>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgelmunozp/express-fruteria-inventario-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jorgelmunozp/express-fruteria-inventario-backend/issues"
   }
 }
