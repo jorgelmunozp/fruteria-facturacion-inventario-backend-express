@@ -10,7 +10,7 @@
     "build": "npm test"
   },
   "dependencies": {
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.3.0",
     "json-server": "^0.17.4",
     "node-fetch": "2.0"
   },
