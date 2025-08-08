@@ -1,20 +1,20 @@
 // DEV
-const urlApiInventario = 'http://localhost:3000/inventario';
-const urlApiFactura = 'http://localhost:3000/factura';
-const urlApiProveedores = 'http://localhost:3000/proveedores';
-const urlApiDescuentos = 'http://localhost:3000/descuentos';
+// const urlApiInventario = 'http://localhost:3000/inventario';
+// const urlApiFactura = 'http://localhost:3000/factura';
+// const urlApiProveedores = 'http://localhost:3000/proveedores';
+// const urlApiDescuentos = 'http://localhost:3000/descuentos';
 
 // NON PROD
+const urlApiInventario = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/inventario.json';
+const urlApiFactura = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/factura.json';
+const urlApiProveedores = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/proveedores.json';
+const urlApiDescuentos = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/descuentos.json';
+
+// PROD
 // const urlApiInventario = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/inventario';
 // const urlApiFactura = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/factura';
 // const urlApiProveedores = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/proveedores';
 // const urlApiDescuentos = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/descuentos';
-
-// PROD
-// const urlApiInventario = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/inventario.json';
-// const urlApiFactura = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/factura.json';
-// const urlApiProveedores = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/proveedores.json';
-// const urlApiDescuentos = 'https://jorgelmunozp.github.io/fruteria-facturacion-inventario-backend-express/descuentos.json';
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
