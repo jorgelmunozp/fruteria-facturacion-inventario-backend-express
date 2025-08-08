@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "json-server --watch database/database.json --routes database/routes.json",
-    "predeploy": "npm run deploy",
-    "deploy": "gh-pages -d build",
-    "build": "npm run deploy"
+    "start": "json-server --watch database/database.json  --routes database/routes.json",
+    "predeploy": "harp ./public ./build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
