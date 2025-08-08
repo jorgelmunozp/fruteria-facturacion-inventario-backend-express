@@ -1,38 +1,50 @@
 {
     "id": 121,
-    "vendedor": "jlmunoz",
-    "detalle": {
-      "manzanas": {
-        "nombre": "Manzanas",
-        "kilos": "1",
-        "precio": 4200,
-        "subtotal": 4200,
-        "descuento": 0,
-        "total": 4200
+    "vendedor": "Jorge",
+    "detalle": [
+      {
+        "fruta": {
+          "nombre": "Manzanas",
+          "kilos": "1",
+          "precio": 4200,
+          "subtotal": 4200,
+          "descuento": 0,
+          "total": 4200
+        }, 
+        "id": 1
       },
-      "bananos": {
-        "nombre": "Bananos",
-        "kilos": 0,
-        "precio": 2200,
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Bananos",
+          "kilos": 0,
+          "precio": 2200,
+          "subtotal": 0,
+          "descuento": 0,
+          "total": 0
+        }, 
+        "id": 2
       },
-      "mangos": {
-        "nombre": "Mangos",
-        "kilos": 0,
-        "precio": 3500,
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Mangos",
+          "kilos": 0,
+          "precio": 3500,
+          "subtotal": 0,
+          "descuento": 0,
+          "total": 0
+        }, 
+        "id": 3
       },
-      "fresas": {
-        "nombre": "Fresas",
-        "kilos": 0,
-        "precio": 2700,
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Fresas",
+          "kilos": 0,
+          "precio": 2700,
+          "subtotal": 0,
+          "descuento": 0,
+          "total": 0
+        }, 
+        "id": 4
       }
-    }
+    ]
   }

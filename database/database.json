@@ -1,118 +1,162 @@
 {
-  "inventario": {
-    "manzanas": {
-      "id": 0,
-      "nombre": "Manzanas",
-      "cantidad": 36,
-      "ventas": 24,
-      "kilos": 52,
-      "total": 189360
+  "inventario": [
+    {
+      "detail": {
+        "nombre": "Manzana",
+        "cantidad": 68,
+        "ventas": 16,
+        "kilos": 25,
+        "total": 83100
+      },
+      "id": 1
     },
-    "bananos": {
-      "id": 1,
-      "nombre": "Bananos",
-      "cantidad": 40,
-      "ventas": 16,
-      "kilos": 37,
-      "total": 66310
+    {
+      "detail": {
+        "nombre": "Banano",
+        "cantidad": 61,
+        "ventas": 11,
+        "kilos": 19,
+        "total": 27700
+      },
+      "id": 2
     },
-    "mangos": {
-      "id": 2,
-      "nombre": "Mangos",
-      "cantidad": 43,
-      "ventas": 15,
-      "kilos": 70,
-      "total": 156250
+    {
+      "detail": {
+        "nombre": "Mango",
+        "cantidad": 87,
+        "ventas": 14,
+        "kilos": 30,
+        "total": 33400
+      },
+      "id": 3
     },
-    "fresas": {
-      "id": 3,
-      "nombre": "Fresas",
-      "cantidad": 31,
-      "ventas": 17,
-      "kilos": 88,
-      "total": 139380
+    {
+      "detail": {
+        "nombre": "Fresa",
+        "cantidad": 83,
+        "ventas": 8,
+        "kilos": 40,
+        "total": 22200
+      },
+      "id": 4
     }
-  },
+  ],
   "factura": {
-    "id": 121,
+    "id": 146,
     "vendedor": "Jorge",
-    "detalle": {
-      "manzanas": {
-        "nombre": "Manzanas",
-        "kilos": "1",
-        "precio": "4200",
-        "subtotal": 4200,
-        "descuento": 0,
-        "total": 4200
+    "detalle": [
+      {
+        "fruta": {
+          "nombre": "Manzana",
+          "kilos": "1",
+          "precio": "4200",
+          "subtotal": 4200,
+          "descuento": 0,
+          "total": 4200
+        },
+        "id": 1
       },
-      "bananos": {
-        "nombre": "Bananos",
-        "kilos": 0,
-        "precio": "2200",
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Banano",
+          "kilos": "1",
+          "precio": "2200",
+          "subtotal": 2200,
+          "descuento": 0,
+          "total": 2200
+        },
+        "id": 2
       },
-      "mangos": {
-        "nombre": "Mangos",
-        "kilos": 0,
-        "precio": "3500",
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Mango",
+          "kilos": 0,
+          "precio": "3500",
+          "subtotal": 0,
+          "descuento": 0,
+          "total": 0
+        },
+        "id": 3
       },
-      "fresas": {
-        "nombre": "Fresas",
-        "kilos": 0,
-        "precio": "2700",
-        "subtotal": 0,
-        "descuento": 0,
-        "total": 0
+      {
+        "fruta": {
+          "nombre": "Fresa",
+          "kilos": 0,
+          "precio": "2700",
+          "subtotal": 0,
+          "descuento": 0,
+          "total": 0
+        },
+        "id": 4
       }
-    }
+    ]
   },
-  "proveedores": {
-    "fruta1": {
-      "nombre": "Manzana",
-      "descripcion": "Golden",
-      "valorkilo": "4200",
-      "proveedor": "Distrimanzanas SAS"
+  "proveedores": [
+    {
+      "detail": {
+        "nombre": "Manzana",
+        "descripcion": "Golden",
+        "valorkilo": "4200",
+        "proveedor": "Manzanacol SA"
+      },
+      "id": 1
     },
-    "fruta2": {
-      "nombre": "Banano",
-      "descripcion": "Dominico",
-      "valorkilo": "2200",
-      "proveedor": "Colbananos SA"
+    {
+      "detail": {
+        "nombre": "Banano",
+        "descripcion": "Dominico",
+        "valorkilo": "2200",
+        "proveedor": "Colbananos SAS"
+      },
+      "id": 2
     },
-    "fruta3": {
-      "nombre": "Mango",
-      "descripcion": "Hilacha",
-      "valorkilo": "3500",
-      "proveedor": "Corpomangos SAS"
+    {
+      "detail": {
+        "nombre": "Mango",
+        "descripcion": "Hilacha",
+        "valorkilo": "3500",
+        "proveedor": "Corpomangos SAS"
+      },
+      "id": 3
     },
-    "fruta4": {
-      "nombre": "Fresa",
-      "descripcion": "Ventana",
-      "valorkilo": "2700",
-      "proveedor": "Fresacol SA"
+    {
+      "detail": {
+        "nombre": "Fresa",
+        "descripcion": "Ventana",
+        "valorkilo": "2700",
+        "proveedor": "Distrifresas SA"
+      },
+      "id": 4
     }
-  },
-  "descuentos": {
-    "descuento1": {
-      "cantidad": "0 - 2",
-      "descuento": "0"
+  ],
+  "descuentos": [
+    {
+      "detail": {
+        "cantidad": "0 - 2",
+        "descuento": "0"
+      },
+      "id": 1
     },
-    "descuento2": {
-      "cantidad": "3 - 5",
-      "descuento": "5"
+    {
+      "detail": {
+        "cantidad": "3 - 5",
+        "descuento": "5"
+      },
+      "id": 2
     },
-    "descuento3": {
-      "cantidad": "6 - 10",
-      "descuento": "10"
+    {
+      "detail": {
+        "cantidad": "6 - 10",
+        "descuento": "10"
+      },
+      "id": 3
     },
-    "descuento4": {
-      "cantidad": "11+",
-      "descuento": "15"
+    {
+      "detail": {
+        "cantidad": "11+",
+        "descuento": "15"
+      },
+      "id": 4
     }
-  }
+  ]
 }

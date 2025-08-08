@@ -100,37 +100,37 @@ fetch(urlApiInventario)                 //API REST para la simulación de la tab
                   </tr>  
                   <tr>
                   <td rowspan="4">${factura.id}</td>
-                    <td> ${factura.detalle[0].fruta.nombre} </td>
-                    <td> ${formatterMiles.format(factura.detalle[0].fruta.kilos)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[0].fruta.precio)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[0].fruta.subtotal)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[0].fruta.descuento)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[0].fruta.total)} </td>
+                    <td> ${factura.detalle.manzanas.nombre} </td>
+                    <td> ${formatterMiles.format(factura.detalle.manzanas.kilos)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.manzanas.precio)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.manzanas.subtotal)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.manzanas.descuento)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.manzanas.total)} </td>
                     <td rowspan="4">${factura.vendedor}</td>
                   </tr>   
                   <tr>
-                    <td> ${factura.detalle[1].fruta.nombre} </td>
-                    <td> ${formatterMiles.format(factura.detalle[1].fruta.kilos)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[1].fruta.precio)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[1].fruta.subtotal)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[1].fruta.descuento)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[1].fruta.total)} </td>
+                    <td> ${factura.detalle.bananos.nombre} </td>
+                    <td> ${formatterMiles.format(factura.detalle.bananos.kilos)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.bananos.precio)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.bananos.subtotal)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.bananos.descuento)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.bananos.total)} </td>
                   </tr> 
                   <tr>
-                    <td> ${factura.detalle[2].fruta.nombre} </td>
-                    <td> ${formatterMiles.format(factura.detalle[2].fruta.kilos)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[2].fruta.precio)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[2].fruta.subtotal)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[2].fruta.descuento)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[2].fruta.total)} </td>
+                    <td> ${factura.detalle.mangos.nombre} </td>
+                    <td> ${formatterMiles.format(factura.detalle.mangos.kilos)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.mangos.precio)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.mangos.subtotal)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.mangos.descuento)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.mangos.total)} </td>
                   </tr>      
                   <tr>
-                    <td> ${factura.detalle[3].fruta.nombre} </td>
-                    <td> ${formatterMiles.format(factura.detalle[3].fruta.kilos)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[3].fruta.precio)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[3].fruta.subtotal)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[3].fruta.descuento)} </td>
-                    <td> ${formatterPeso.format(factura.detalle[3].fruta.total)} </td>
+                    <td> ${factura.detalle.fresas.nombre} </td>
+                    <td> ${formatterMiles.format(factura.detalle.fresas.kilos)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.fresas.precio)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.fresas.subtotal)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.fresas.descuento)} </td>
+                    <td> ${formatterPeso.format(factura.detalle.fresas.total)} </td>
                   </tr>  
                 </table>
             </div>

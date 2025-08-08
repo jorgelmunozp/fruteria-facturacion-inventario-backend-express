@@ -1,7 +1,7 @@
 [
     {
         "detail": {
-            "nombre": "Manzana",
+            "nombre": "Manzanas",
             "descripcion": "Golden",
             "valorkilo": "4200",
             "proveedor": "Manzanacol SA"
@@ -10,7 +10,7 @@
     },
     {
         "detail": {
-            "nombre": "Banano",
+            "nombre": "Bananos",
             "descripcion": "Dominico",
             "valorkilo": "2200",
             "proveedor": "Colbananos SAS"
@@ -19,7 +19,7 @@
     },
     {
         "detail": {
-            "nombre": "Mango",
+            "nombre": "Mangos",
             "descripcion": "Hilacha",
             "valorkilo": "3500",
             "proveedor": "Corpomangos SAS"
@@ -28,7 +28,7 @@
     },
     {
         "detail": {
-            "nombre": "Fresa",
+            "nombre": "Fresas",
             "descripcion": "Ventana",
             "valorkilo": "2700",
             "proveedor": "Distrifresas SA"
