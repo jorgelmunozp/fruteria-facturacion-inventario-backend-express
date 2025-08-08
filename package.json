@@ -5,12 +5,12 @@
     "dotenv": "^16.3.1",
     "gh-pages": "^6.0.0",
     "json-server": "^0.17.4",
-    "node-fetch": "2.0",
-    "node-sass": "^9.0.0"
+    "node-fetch": "2.0"
   },
   "scripts": {
-    "start": "json-server --watch database/database.json --routes database/routes.json",
-    "predeploy": "harp ./public ./build",
-    "deploy": "gh-pages -d build"
+    "start": "json-server --watch database/database.json --host localhost --port 3000 --routes database/routes.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "npm test"
   }
 }
