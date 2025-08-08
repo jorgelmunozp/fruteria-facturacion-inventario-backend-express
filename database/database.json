@@ -48,22 +48,22 @@
       {
         "fruta": {
           "nombre": "Manzana",
-          "kilos": "1",
+          "kilos": "0",
           "precio": "4200",
-          "subtotal": 4200,
+          "subtotal": 0,
           "descuento": 0,
-          "total": 4200
+          "total": 0
         },
         "id": 1
       },
       {
         "fruta": {
           "nombre": "Banano",
-          "kilos": "1",
+          "kilos": "0",
           "precio": "2200",
-          "subtotal": 2200,
+          "subtotal": 0,
           "descuento": 0,
-          "total": 2200
+          "total": 0
         },
         "id": 2
       },
